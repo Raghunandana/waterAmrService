@@ -1,0 +1,3 @@
+unitId,last24HrsData,prevDayCons,prevToPrevDayCons,tamperStat,battVolt,temperature,reversePulseCount,date,time
+64,10,1000,1000,0,3.6300,0.0000,0,2019-11-30,16:15:32
+66,10,800,800,0,3.6300,0.0000,0,2019-11-30,16:15:32

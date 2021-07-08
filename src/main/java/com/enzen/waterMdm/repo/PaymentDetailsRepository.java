@@ -1,0 +1,17 @@
+package com.enzen.waterMdm.repo;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+
+import com.enzen.waterMdm.model.BillGroup;
+import com.enzen.waterMdm.model.BillLog;
+import com.enzen.waterMdm.model.BillingReportMaster;
+import com.enzen.waterMdm.model.PaymentDetails;
+
+public interface PaymentDetailsRepository extends CrudRepository<PaymentDetails, Long>{
+	
+	public PaymentDetails findByBillNo(Integer billno);
+	
+}
